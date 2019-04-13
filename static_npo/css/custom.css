@@ -1,0 +1,85 @@
+.intl-tel-input {
+	background-color: #fff;
+}
+
+.selected-dial-code, .country-list {
+	color: black;
+}
+
+.input {
+	width: 100%;
+}
+
+.section {
+	margin-bottom: 100px;
+}
+
+.section_first {
+	padding-top: 100px;
+}
+
+.wtf-item {
+	border: 2px solid gray;
+	padding: 25px;
+}
+
+.wtf-item__lead {
+	display: inline-block;
+	color: green;
+	font-size: 4rem;
+}
+
+.programs-item-wrapper {
+	margin-bottom: 1rem;
+}
+
+.programs-item {
+	background-color: #ec1a58;
+	padding: 25px;
+	color: white;
+	height: 100%;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+.programs-item__title {
+	position: relative;
+	padding-bottom: 10px;
+}
+
+.programs-item__title::after {
+	content: '';
+	position: absolute;
+	left: 0; bottom: 0;
+	width: 100%; height: 2px;
+	background-color: #fff;
+}
+
+.programs-item__description {
+	padding-top: 10px;
+}
+
+.programs-item__title h3 {
+	margin: 0;
+}
+
+.team-item {
+	margin-bottom: 1rem;
+	text-align: center;
+}
+
+.team-item__photo {
+	box-shadow: 0 0 10px #ec1a58bb;
+	width: 100%; height: 150px;
+	object-fit: cover;
+	max-width: 250px;
+}
+
+.team-item__name {
+	margin: 10px 0;
+	font-weight: bold;
+}
+
+.team-item__description {
+	font-size: 14px;
+	color: gray;
+}
