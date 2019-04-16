@@ -20,12 +20,11 @@
 
 .wtf-item {
 	border: 2px solid gray;
-	padding: 25px;
+	padding: 15px 25px;
 	height: 100%;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	min-height: 200px;
 }
 
 .wtf-item-wrapper {
@@ -35,7 +34,16 @@
 .wtf-item__lead {
 	display: inline-block;
 	color: green;
-	font-size: 4rem;
+	font-size: 3rem;
+}
+
+.wtf-item__description {
+	display: flex;
+	justify-content: center;
+}
+
+.wtf-item__description p {
+	margin: 0;
 }
 
 .programs-item-wrapper {
@@ -91,4 +99,13 @@
 .team-item__description {
 	font-size: 14px;
 	color: gray;
+}
+
+.privacy a {
+	font-size: 10px;
+	color: #888;
+}
+
+.header__container {
+	align-items: center;
 }
